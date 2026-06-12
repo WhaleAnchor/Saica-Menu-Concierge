@@ -1,58 +1,180 @@
-{
-  "id": "edamame",
-  "name": "Edamame",
-  "category": "appetizer",
-  "price": 7,
+[
+    { 
+    "id": "edamame",
+    "name": "Edamame",
+    "category": "appetizer",
+    "price": 7,
 
-  "description": "Boiled and lightly salted soybean pods.",
+    "description": "Boiled and lightly salted soybean pods.",
 
-  "ingredients": {
-    "proteins": [],
-    "vegetables": ["soybean"],
-    "sauces": [],
-    "toppings": [],
-    "base": []
-  },
+    "ingredients": {
+        "proteins": [],
+        "sauces": [],
+        "toppings": [],
+        "base": []
+    },
 
-  "experience": {
-    "textures": ["soft"],
-    "flavors": ["salty"],
-    "temperature": "hot",
-    "raw": false,
-    "spicyLevel": 0
-  },
+    "experience": {
+        "textures": ["soft"],
+        "flavors": ["salty"],
+        "temperature": "hot",
+        "raw": false,
+        "spicyLevel": 0
+    },
 
-  "scores": { 
-    "popularity": 5,
-    "beginnerFriendly": 5,
-    "comfortLevel": 3,
-    "adventureLevel": 1,
-    "fillingLevel": 1,
-    "freshnessLevel": 4,
-    "shareability": 5,
-    "presentationLevel": 2,
-    "uniqueness": 1
-  },
+    "scores": { 
+        "popularity": 5,
+        "beginnerFriendly": 5,
+        "comfortLevel": 3,
+        "adventureLevel": 1,
+        "fillingLevel": 1,
+        "freshnessLevel": 4,
+        "spicyLevel": 1,
+        "shareability": 5,
+        "presentationLevel": 2,
+        "uniqueness": 1
+    },
 
-  "recommendation": {
-    "cravings": ["fresh-light"],
-    "occasions": [
-      "sharing_with_friends",
-      "family_table",
-      "date_night"
+    "recommendation": {
+        "cravings": ["fresh-light"],
+        "occasions": [
+        "sharing",
+        "family-table",
+        "date-night"
+        ]
+    },
+
+    "safety": {
+        "allergens": ["soy"],
+        "dietaryFlags": ["vegetarian"]
+    },
+
+    "tags": [
+        "shareable",
+        "beginner-friendly",
+        "light",
+        "healthy",
+        "cooked"
     ]
-  },
+    },
 
-  "safety": {
-    "allergens": ["soy"],
-    "dietaryFlags": ["vegetarian"]
-  },
+    { 
+    "id": "takoyaki",
+    "name": "Takoyaki",
+    "category": "appetizer",
+    "price": 8,
 
-  "tags": [
-    "shareable",
-    "beginner-friendly",
-    "light",
-    "healthy",
-    "cooked"
-  ]
-}
+    "description": "Fried octopus balls drizzled with eel sauce, wasabi-mayo, and bonito flakes.",
+
+    "ingredients": {
+        "proteins": ["octopus"],
+        "sauces": ["eel-sauce", "wasabi-mayo"],
+        "toppings": ["bonito-flakes"],
+        "base": []
+    },
+
+    "experience": {
+        "textures": ["juicy"],
+        "flavors": ["savory"],
+        "temperature": "hot",
+        "raw": false,
+        "spicyLevel": 1
+    },
+
+    "scores": { 
+        "popularity": 5,
+        "beginnerFriendly": 3,
+        "comfortLevel": 5,
+        "adventureLevel": 2,
+        "fillingLevel": 1,
+        "freshnessLevel": 2,
+        "spicyLevel": 1,
+        "shareability": 5,
+        "presentationLevel": 4,
+        "uniqueness": 3
+    },
+
+    "recommendation": {
+        "cravings": ["sweet-savory"],
+        "occasions": [
+        "sharing",
+        "treat-myself",
+        "just-me"
+        ]
+    },
+
+    "safety": {
+        "allergens": ["soy", "gluten", "dairy"],
+        "dietaryFlags": []
+    },
+
+    "tags": [
+        "shareable",
+        "beginner-friendly",
+        "light",
+        "popular",
+        "crowd-pleaser"
+    ]
+    },
+    
+    { 
+    "id": "currykatsu",
+    "name": "Curry Katsu",
+    "category": "japanese",
+    "price": 20,
+
+    "description": "Breaded and fried pork or chicken cutlet served with Japanese curry sauce and rice.",
+
+    "ingredients": {
+        "proteins": ["chicken", "pork"],
+        "sauces": "japanese-curry",
+        "toppings": [],
+        "base": "japanese-curry"
+    },
+
+    "experience": {
+        "textures": ["chewy"],
+        "flavors": ["meaty"],
+        "temperature": "hot",
+        "raw": false,
+        "spicyLevel": 0
+    },
+
+    "scores": { 
+        "popularity": 5,
+        "beginnerFriendly": 3,
+        "comfortLevel": 3,
+        "adventureLevel": 2,
+        "fillingLevel": 4,
+        "freshnessLevel": 3,
+        "spicyLevel": 3,
+        "shareability": 2,
+        "presentationLevel": 5,
+        "uniqueness": 4
+    },
+
+    "recommendation": {
+        "cravings": ["fresh-light"],
+        "occasions": [
+        "sharing",
+        "family-table",
+        "date-night"
+        ]
+    },
+
+    "safety": {
+        "allergens": [],
+        "dietaryFlags": []
+    },
+
+    "tags": [
+        "popular",
+        "instagram-worthy",
+        "crowd-pleaser",
+        "hearty",
+        "signature",
+        "staff-favorite"
+    ]
+    }
+
+]

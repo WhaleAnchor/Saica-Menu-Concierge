@@ -1,27 +1,30 @@
 {
-  "id": "food",
-  "name": "Food",
-  "category": "appetizer", 
+  "id": "edamame",
+  "name": "Edamame",
+  "category-delete": ["appetizer", "salad", "japanese", "korean", "thai", "noodles", "beverage", "alcohol", "dessert", "regular-rolls", "tempura-rolls", "vegetarian-rolls", "House-Special-Rolls", "nigiri", "sushi-combos" ], 
+  "category": "appetizer",
   "price": 7,
 
   "description": "Boiled and lightly salted soybean pods.",
 
   "ingredients": {
     "delete-this": ["pick one"],
-    "proteins": ["chicken", "beef", "pork", "salmon", "tofu"],
-    "vegetables": ["soybean"],
-    "sauces": ["teriyaki", "spicy mayo", "wasabi-mayo", "eel-sauce", "ginger-dressing", "sesame-dressing"],
+    "proteins": ["chicken", "beef", "pork", "salmon", "tofu", "shrimp", "crab", "eel", "octopus", "tuna"],
+    "vegetables": ["soybean", "cucumber", "avocado", "carrot", "seaweed", "bok-choy", "mushroom", "asparagus", "corn", "oshinko", "daikon", "sweet-potato"],
+    "sauces": ["teriyaki", "spicy mayo", "wasabi-mayo", "eel-sauce", "ginger-dressing", "sesame-dressing", "japanese-curry"],
     "toppings": ["masago", "green-onion", "sesame-seeds", "sweet-potato", "tempura-flakes" ],
-    "base": []
+    "base": [],
+    "other": []
   },
 
   "experience": {
     "delete-this": ["pick one"],
     "textures": ["soft", "crunchy", "chewy", "crispy", "smooth", "creamy", "flaky", "tender", "juicy", "firm"],
-    "flavors": ["salty,", "sweet", "savory", "spicy", "umami", "fresh", "sour", "seafood", "meaty", "vegetable"],
+    "flavors": ["salty", "sweet", "savory", "spicy", "umami", "fresh", "sour", "seafood", "meaty", "vegetable"],
     "temperature": ["cold", "room-temp", "warm", "hot"],
     "raw": false,
-    "spicyLevel": 0
+    "delete-after-below": ["pick one spice level"],
+    "spicyLevel": [0, 1, 2, 3, 4, 5]
   },
 
   "scores": { 
@@ -32,6 +35,7 @@
     "adventureLevel": 1,
     "fillingLevel": 1,
     "freshnessLevel": 4,
+    "spicyLevel": 0,
     "shareability": 5,
     "presentationLevel": 2,
     "uniqueness": 1
@@ -44,7 +48,8 @@
   },
 
   "safety": {
-    "allergens": ["soy"],
+    "delete-this": ["pick all that apply"],
+    "allergens": ["soy", "gluten", "dairy", "nuts", "shellfish"],
     "dietaryFlags": ["vegetarian"]
   },
 
@@ -57,6 +62,7 @@
     "raw", 
     "vegetarian", 
     "vegan", 
+    "hearty",
     "shareable", 
     "seasonal", 
     "lunch-special", 
