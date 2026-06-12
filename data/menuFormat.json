@@ -1,0 +1,65 @@
+{
+  "id": "food",
+  "name": "Food",
+  "category": "appetizer", 
+  "price": 7,
+
+  "description": "Boiled and lightly salted soybean pods.",
+
+  "ingredients": {
+    "delete-this": ["pick one"],
+    "proteins": ["chicken", "beef", "pork", "salmon", "tofu"],
+    "vegetables": ["soybean"],
+    "sauces": ["teriyaki", "spicy mayo", "wasabi-mayo", "eel-sauce", "ginger-dressing", "sesame-dressing"],
+    "toppings": ["masago", "green-onion", "sesame-seeds", "sweet-potato", "tempura-flakes" ],
+    "base": []
+  },
+
+  "experience": {
+    "delete-this": ["pick one"],
+    "textures": ["soft", "crunchy", "chewy", "crispy", "smooth", "creamy", "flaky", "tender", "juicy", "firm"],
+    "flavors": ["salty,", "sweet", "savory", "spicy", "umami", "fresh", "sour", "seafood", "meaty", "vegetable"],
+    "temperature": ["cold", "room-temp", "warm", "hot"],
+    "raw": false,
+    "spicyLevel": 0
+  },
+
+  "scores": { 
+    "delete-this": ["0-5 scale"],
+    "popularity": 5,
+    "beginnerFriendly": 5,
+    "comfortLevel": 3,
+    "adventureLevel": 1,
+    "fillingLevel": 1,
+    "freshnessLevel": 4,
+    "shareability": 5,
+    "presentationLevel": 2,
+    "uniqueness": 1
+  },
+
+  "recommendation": {
+    "delete-this": ["pick one for cravings", "pick multiple for occasions"],
+    "cravings": ["warm-comforting", "fresh-light", "crispy-fried", "sushi", "spicy", "healthy", "protein-heavy", "savory", "sweet-savory", "adventurous"],
+    "occasions": ["just-me", "quick-lunch", "treat-myself", "date-night", "sharing", "family-table"]
+  },
+
+  "safety": {
+    "allergens": ["soy"],
+    "dietaryFlags": ["vegetarian"]
+  },
+
+  "tags": [
+    "delete this, pick multiple",
+    "popular", 
+    "signature", 
+    "staff-favorite", 
+    "cooked", 
+    "raw", 
+    "vegetarian", 
+    "vegan", 
+    "shareable", 
+    "seasonal", 
+    "lunch-special", 
+    "crowd-pleaser", 
+    "instagram-worthy"]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "edamame",
+  "name": "Edamame",
+  "category": "appetizer",
+  "price": 7,
+
+  "description": "Boiled and lightly salted soybean pods.",
+
+  "ingredients": {
+    "proteins": [],
+    "vegetables": ["soybean"],
+    "sauces": [],
+    "toppings": [],
+    "base": []
+  },
+
+  "experience": {
+    "textures": ["soft"],
+    "flavors": ["salty"],
+    "temperature": "hot",
+    "raw": false,
+    "spicyLevel": 0
+  },
+
+  "scores": { 
+    "popularity": 5,
+    "beginnerFriendly": 5,
+    "comfortLevel": 3,
+    "adventureLevel": 1,
+    "fillingLevel": 1,
+    "freshnessLevel": 4,
+    "shareability": 5,
+    "presentationLevel": 2,
+    "uniqueness": 1
+  },
+
+  "recommendation": {
+    "cravings": ["fresh-light"],
+    "occasions": [
+      "sharing_with_friends",
+      "family_table",
+      "date_night"
+    ]
+  },
+
+  "safety": {
+    "allergens": ["soy"],
+    "dietaryFlags": ["vegetarian"]
+  },
+
+  "tags": [
+    "shareable",
+    "beginner-friendly",
+    "light",
+    "healthy",
+    "cooked"
+  ]
+}
